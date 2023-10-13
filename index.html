@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="This Speed Typing Test will give you an acuurate speed test and help increase your typing speed"/>
+
+    <title>Typing Test</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+    <div class="container-fluid box ">
+      <div class="center">
+           <marquee direction="right"><a id="heading" class = "yellow"> <h2>Typing Speed Test</h2></marquee>
+          <div class="limits-box">
+            <div class="limit">
+              
+              <a id="thirty" class="yellow"  href="#" ><h2>30s</h2></a>
+              <a id="sixty" href="#" ><h2>60s</h2></a>
+            </div>
+            <div class="limit">
+            
+              <a id="beg" class="yellow"  href="#" > <h3>easy</h3></a>
+              <a id="pro"  href="#" > <h3>hard</h3></a>
+            </div>
+
+          </div>
+      </div>
+
+      <div class="stats center">
+        <div class="stat-block if">
+          <div id="timeName" class = "stat-name yellow if">Time</div>
+          <div id="time" class="details if ">30</div>
+        </div>
+
+        <div class="stat-block if">
+          <div id="cwName" class = "stat-name yellow if">CW</div>
+          <div id="cw" class="details if">0</div>
+        </div>
+      </div>
+
+
+      <div class="text-display" id="textDisplay">
+
+      </div>
+
+      <div class="input-area center">
+        <textarea rows="1" class="text-input" id="textInput" autofocus autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+      </div>
+
+      <div  class="restart-button center">
+        <a id="restartBtn" class = "current" href="#">
+          <i class="fas fa-redo"></i>
+        </a>
+      </div>
+    </div>
+  
+    <script src="app.js"></script>
+  </body>
+</html>
